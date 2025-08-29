@@ -1,4 +1,7 @@
-# 8/26/2025
+# 8/28/2025
+Mermaid graph now supports more languages, I tested it with one of my website projects & it was successful. I’ve been preparing/planning to set up a security scan that checks for known vulnerabilities. I’m wanting to add some attack functionality to poltergeist as well. I’ll be using hack the box as a sandbox testing ground for its capabilities. I also got the audiobook OSCP Offensive Security Certified Professional by Jake T Mills. I’ve been listening to Snow Crash, I love the cyberpunk genre so it's been on my reading list for a while since it's credited with being a founding book for the genre. But if OSCP has useful & actionable information it's going to have to take up that audiobook time. Wish I had more time for audiobooks, it's going to be forever till I get to Neuromancer & the rest of that series.
+
+# 8/27/2025
 Being sick is the worst! I started getting sick a few days ago but it is really hitting its peak today. I feel awful! Just picked some lowhanging fruit, by fixing the names in the mermaid graph. I really wanted to do more! But with such a bad headache, exhaustion & muscle aches I had to lay down & rest a lot today. I just watch videos about AI projects people are working on, AI news, ect so I’m still learning. I love that I've removed all bad habits on my phone, no more doomscrolling or brainrot. Just useful information that is helping me get closer to my goals!
 
 # 8/26/2025
