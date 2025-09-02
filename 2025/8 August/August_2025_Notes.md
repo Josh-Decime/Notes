@@ -1,3 +1,14 @@
+# End of Month Recap
+In August 2025 I continued my goal, that I started in July, to commit to GitHub every day. At the beginning of the month I was working on the styling for Geist-Chatbot, a simple webpage I built to test out Voiceflow. I also did some final touches to the Quail-Kingdom-Market. The primary project of the month was Geist-Agent, my first AI agent project. I built it using CrewAI, because I like the idea of being able to combine multiple specialized LLMs to accomplish advanced tasks. It sounds like it has a lot of long-term potential. 
+
+When I got started I was surprised to see that it only really supports a singular workflow, with crewai run, which makes sense for what it is. It seems designed to mimic a company, one singular goal that is being worked towards by multiple departments & employees. Currently I don't really have a singular goal for an agent, but I wanted to see what it can do & what I can build. So I built it to have multiple functionalities & be more like a tool enabled LLM that can do more advanced workflows. 
+
+Initially I tried argparse but I wanted a CLI that had a central command like crewai, so after some research I went with Typer. That had the added benefit of allowing global commands, which opened up a lot more usability & brought this project from a fun novelty for learning purposes to being something that could actually be useful once this project is complete. 
+
+In one month Geist-Agent got to the point it can scan codebases & provide detailed reports about what the files are doing & generate a mermaid graph. As well as having the stock research function, a self diagnostic tool, & the beginning of a vulnerability report for code.
+
+---
+
 # 8/31/2025
 Today's progress wasn't very good. When I added slightly more indepth information about vulnerabilities, it broke the LLM written part because for some reason it wasn't returning a string anymore but I wasn't sure how it broke so there was a lot of going over code blocks hoping that would fix it. My code increased 140 lines with barely anything added to the report. Since today I committed yesterday’s code I’m going to pay it forward & just commit this mess tomorrow before I revert & try again. Having AI write code is so nice, but if you aren't really on top of it, it can make a mess of things extremely quickly & it's not great at cleaning that mess up. I’m really hoping for a super productive day tomorrow! I haven't been able to work on it as much as I want because too many other things have been going on & then on top of that I got sick… good luck tomorrow me! Start off the new month strong!
 
