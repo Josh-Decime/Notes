@@ -17,11 +17,17 @@ Ward has more clear, verbose logs so you know what every step is doing & the fil
 
 # 8/29/2025
 The OSCP book was definitely not what I was looking for unfortunately. I want to find a well organized overview of offensive cybersecurity. I’m familiar with a ton of the methods but that knowledge feels segmented, like I have a lot of the different parts & they just aren't put together yet. The OSCP book is specifically for preparing for the certification test & that comes through, strongly, in the way that it was written. It spent what felt like forever asking questions & giving multiple choice answers before saying which one was correct. That is more of a review format for tests, where paying close attention to minor variations in answers is important, not for developing a map of the field’s landscape. 
+
 I did find some really great MIT courses for free online, I listened to most of the MIT Introduction to Deep Learning 6.S191 & found the full course for free online. It isn't as pertinent to my current project, but I really enjoyed it! It's great knowledge for a future project I want to work on. 
+
 Today I implemented the new ward function to scan for vulnerabilities. I have more to say but there's only 2min till midnight & I want this to count for today so I’ll have to commit & add that to this after midnight.
+
 Now that I’m not racing a timer, let's talk about developing ward. Chat GPT 5 was making a lot of super off target assumptions for how it should function. I had to go back & forth with it way more than usual to get it dialed in. I’m curious why this chat is so significantly underperforming compared to the original chat I started that built the entire rest of this project after I got it setup by following CrewAI docs. One thing I noticed is that it has thinking mode on, instead of auto, I haven't tested enough to know if that could potentially be the issue. I have seen it before with other models where sometimes their highest thinking modes actually perform worse at certain things. So by being set to thinking mode by default it might have been too rigid? 
+
 Another potential culprit would be all the files provided? One thing I learned early on using AI is that I get significantly better results when I keep the scope of what we are doing focused on one task at a time, so I just keep it on rails. When I first started I wanted to spell out the entire project to the AI, with a roadmap of functionality to implement. After giving it that overview I would ask for the first specific thing & often it would try to get way ahead of itself or those future functionalities would somehow get mixed up in some other weird way. So maybe by providing too much information right off the bat it led to bizarre behavior? 
+
 Going back & forth with its incorrect assumptions lead to me adding instructions to the project, we will see if that improves results when I start a new chat within the project. I’ll provide the instructions that I have written out. I chose not to include instructions to mitigate some of the weird issues chat was having. For example it would write code in plain text while putting its explanations into yaml text boxes, where an entire paragraph was on one line. I chose not to even acknowledge that in the instructions, hoping it was a weird one off. As stated earlier, here is the instructions:
+
 Try to adhere to similar formatting as the rest of the project, for consistency. 
 Make divider comments between groups of function segments. 
 New workflows should be subcommands, like unveil, scry, & doctor. 
@@ -40,6 +46,7 @@ Being sick is the worst! I started getting sick a few days ago but it is really 
 
 # 8/26/2025
 Mermaid graphs weren't being created when I run the command globally. Hopefully that is the last thing that I need to re-setup for global, so we're no longer in this local/global limbo. I’m glad that I started building this for global commands early on, it would have been a lot of work if my project was much further along before the switch since so many aspects of the small development I have now didn't run globally. 
+
 The chat I was using to develop this is being a boss, still going,  but it was slowing down so I switched over to setting up a project to have context more consistently across multiple chats. It was having some weird annoying issues to start, but we worked through it & are getting good responses dialed in as needed. 
 
 # 8/25/2025
@@ -50,15 +57,21 @@ Had an amazing, action packed day, so I didnt have much coding time! To keep the
 
 # 8/23/2025
 Unveil has been debugged & now writes its report! I’m so impressed with the report! It is easy to read, is very detailed & best of all it comes with a mermaid graph! 
+
 Honestly I was pretty lost through the process of building unveil. Normally I fully understand what is being built & implemented. I usually just read the AI (this time GPT 5) response & the code, then I critique it &/or ask questions. When I do that I don’t even bring the code into my project until I’m confident that it will work & does all the things we need. On some of the other functions, like building out argparse I was 5 steps ahead of what the AI was giving me. This time I didn't have as strong of an understanding as I would like. When I get more time I’ll dig into it to understand it all better to learn as much from this as I can. AI makes development so interesting! It’s crazy to be able to build an entire function that you don't fully understand, just relying on “prompting skills”. Blows my mind! 
+
 What I do understand about the issues we faced is that the initial error was because I was trying to reference unveil agent & task .yaml inside the original files. I thought that I could just add more roles & reference them, keeping it all in one file. But I learned the hard way that it tries to call all of the roles, so I had to separate them into their own file.
+
 I was also going back & forth trying to make the terminal more verbose because previously there was no feedback that it was doing anything until it would throw a huge error when it finished. That introduced its own set of issues, like trouble passing verbose. Then it flooded the terminal which was crazy, it looked like the terminal split in half & was streaming code down like the matrix on 100x speed. So some guardrails had to be put up & certain parts of the process were no longer verbose. There was also issues with duplicating reports. Lastly it was receiving data that it couldn't process & had to be converted into a string. After that it worked & I finally got the report! 
 
 # 8/22/2025
 Getting the functionality that I’m after is tricky. It has required a lot of troubleshooting! It now has terminal logs that give feedback when each part of the process is complete. But I wasn't able to get it to a completely stable point where it is working & creating reports. There were some major, important changes that were made so it was still a big step forward, it just needs more debugging. 
+
 I committed my code to a branch I named “ephemeral”, thinking that I would be able to work out the bugs before bringing them back to main. But then I learned that you don’t get GitHub commit credit for commits that aren't made to the main branch. That is really frustrating, because I am remaining consistent with my projects by challenging myself to commit every day. So getting credit for my commits is important to me. Using other branches for development & pushing them once it is complete is a standard development process. Why don't we get credit for code in another branch? That punishes people for using other branches. Honestly this is extremely frustrating! 
+
 So I merged the branch back to main, guess I won't be using other branches on personal projects from now on. Just stopping me from using a super beneficial project development & organizational tool. I guess I could use them mid development in a day, to create more fallbacks & then just merge that branch at the end of the day. But even that just doesn't seem very worth it.
 When I have deployed projects, guess now I have to make a whole other repository & clone that code to be able to continue development. If I want to get credit for the work I’m doing. Instead of just utilizing the convenience of having other branches. 
+
 I know it shouldn’t bother me, you could make the argument that green squares are superficial & dont mean that much. But I like to be able to track my progress at a glance & see how active I am over time. Even if I keep my green square streak, by committing notes for the day, I would still like to see how many times I committed in a day to get a rough idea of how active I was at a given time. **Visually seeing my progress mapped out, by getting credit for my work, is extremely motivating for me.**
 
 # 8/21/2025
@@ -66,6 +79,7 @@ Really great progress was made today even though I am exhausted! Started setting
 
 # 8/20/2025
 The day was incredibly busy, but I made a new CrewAI project so I can test out crewai train/replay/test. I thought about just naming it CrewAI-Test but went with Job-Hunter instead so I can dual purpose it into an agent that searches job listings & organizes key information into an easy to read format. It drives me crazy looking for a job & basic information like pay or hours is all over the place. The agent should also be able to look at several recruiting websites at once quickly & compile the results & provide links to every job. 
+
 I think I’m going to separate my notes from the Geist-Agent project into its own repository. If I develop Geist to the point people would want to fork/clone it, they don't need my notes. Also, this way I can chronicle multiple projects in one spot. I have a tendency to switch between multiple projects at once so having notes in one place is a good idea. 
 If your reading this, see you in my new notes repository XP
 
@@ -74,6 +88,7 @@ To clean up the project I was planning to remove main.py & crew.py since they ar
 
 # 8/18/2025
 Typer was well worth the effort of refactoring, I’m really glad I set this up early in the project! Being able to run the command globally is really cool, so I can just run it straight from the terminal. That will open up some new possibilities for what Geist can do.
+
 The issue I had last night was just that because it was global it was having issues calling certain files, so they had to be reconnected. Now it's all running beautifully! The little bit of effort of updating the pyproject.toml version to get it to recognize a change so I can reinstall it is well worth having this be a global command. Plus I can always run longer commands (uv run -m geist_agent.poltern scry --topic "Your topic") to test things more quickly. I’m really loving this so far! Setting this up was definitely the right call. 
 
 # 8/17/2025
@@ -81,22 +96,30 @@ After some research I decided to try Typer for my custom CLI. Today was very bus
 
 # 8/16/2025
 Today I set up argparse so information can be input from the CLI instead of being manually changed in the poltern.py file. Now you can set the topic in the CLI by using –topic “ “. 
-The default topic is currently set to “The Meaning of Life” because I thought it was amusing that a poltergeist’s default would be contemplating the meaning of life, since it has a hint of irony. 
+
+The default topic is currently set to “The Meaning of Life” because I thought it was amusing that a poltergeist’s default would be contemplating the meaning of life, since it has a hint of irony.
+
 This is an important step towards being able to have multiple workflow functions. But I can't help but wonder if there was a better solution to be more like “crewai run”. Running these custom commands can be a little annoying when you start up the terminal because you have to navigate to the right path to activate the virtual environment before you can run anything. Crewai run could just run off main & didnt require manual activation of the virtual environment. It also had more customized commands, it would be nice if all you had to type was “geist scry –topic ‘ ‘” instead of “python poltern.py scry –topic ‘ ‘“
+
 I’ll look into it tomorrow to see if it's worth setting up. It would be better to tackle that earlier in the project so refactoring won't be such an undertaking.
 
 # 8/15/2025
 Set up some organization for where reports will be stored & created a utils file so I can have functions that will be shared across workflows. Now report names are generated from the topic + date & time to make sure each file has a unique name so they no longer overwrite each other.
 
 # 8/14/2025
-I’m beginning to build out the first workflow structure for my agent. I went with themed naming conventions rather than concise/explicit names. This is not the decision I would have made for a client project, but since this is a personal project I can have some fun with it. 
+I’m beginning to build out the first workflow structure for my agent. I went with themed naming conventions rather than concise/explicit names. This is not the decision I would have made for a client project, but since this is a personal project I can have some fun with it.
+
 I chose poltern for the name of the file that will launch my workflows because it is the source of the prefix for poltergeist. It is a German word that roughly translates to making noise. Poltern is the difference between a geist/ghost that can interact with the physical world or not.
+
 Scrying is my thematic choice for the research workflow. The definition “Scrying, also referred to as "seeing" or "peeping," is a practice rooted in divination and fortune-telling. It involves gazing into a medium, hoping to receive significant messages or visions that could offer personal guidance, prophecy, revelation, or inspiration.” fits well with scouring the internet to compile information about a topic.
 
 # 8/13/2025
 I was right when I said it was likely user error blocking me from running a custom CLI script to run another workflow. Python pathing is tricky, I’ve never encountered any issues like that in any other coding language/project I’ve done before. 
+
 The issue was that it wasn't in the virtual environment that was created by the template when I tried to execute python custom_run.py & custom_run.py import was trying to run from the wrong place. When I started the project I got ahead of myself & set up a virtual environment before launching the create CrewAI command so there was a virtual environment inside another virtual environment, because I was following AI generated instructions. After I restarted the project & just followed CrewAI documentation, like I should have in the first place, I hadn't paid much attention to it having a virtual environment because the CrewAI run command worked without being in the virtual environment. 
+
 While driving around today I listened to some python tutorials, specifically for custom CLI, but they didn’t tell me anything I hadn’t already learned from just trial & error over the last several days. Trial & error ended up being how I solved this one. I’ll keep listening to tutorials &/or find an audiobook so I can learn more about Python, since it's so common for AI & agentic projects. 
+
 I’m glad I figured that out! Now I can develop this how I want, rather than just adhering to how the template was intended to be used. One single workflow just isn't flexible enough for how I want to utilize this. 
 
 # 8/12/2025
@@ -104,7 +127,11 @@ Today was much busier than anticipated so I could only read CrewAI documentation
 
 # 8/11/2025
 I familiarized myself with the template files so I understand the code flow. The run function in main.py calls crew.py, which pulls from the agents.yaml & tasks.yaml. Simple enough, but as far as I currently understand it, the run function bottlenecks the crew into only being able to run a singular workflow. You can add more to crew.py, agents.yaml & tasks.yaml so it can accomplish much more complex tasks, but I don't yet see a way to run various different workflows to accomplish different goals.
+
 For example, I would like to keep the research functionality that it has, that could be helpful. But I would also like to add completely different capabilities like being able to scan a codebase & summarize it. Or be able to search that codebase for functions that accomplish a certain task. Essentially making my crew work like a free, read only, version of claude code. But those would have to be 2 separate run functions that I would call. I would also need a way to input information for running it. I would also like to build out different workflows around different tools.
+
 I have been weighing my different options to allow for various workflows within the same agent. The most obvious answer to me would be to make new .py files that mirror crew.py to run those different workflows. they could take information from the agents.yaml & tasks.yaml. Since I have a base knowledge of web development I think of it like the new .py would be my service with all the logic & the .yaml would be similar to my appstate, holding information. In main.py I could make new functions like "codescan" instead of just run, that would reference a codescan.py file.In the terminal I would run it like crewai codescan & the AI would go off scanning whatever file I manually pointed it to in the main.py.
+
 I was looking at argparse as a solution too. That would allow me to input a new topic in as well so I could build out a research architecture with multiple LLM & instead of manually changing the topic in the main.py I could just input it in the terminal, for example crewai run --topic "Quantum Mechanics". I attempted to incorporate argparse but I get the error [Errno 2] No such file or directory. I think it is because crewai has a custom CLI. I might be able to overcome it with a setup.py file but that would be risky because I would have to pip install -e. AI says sure it's fine.. I might be brand new to python & not have much experience outside websites & small VR projects, but that seems like a good way to give myself a whole lot of problems. I don't understand this template nearly well enough. I need to read all the documentation instead of just messing around & seeing what happens like I have been.
+
 My plan for tomorrow is to read the documentation & come up with a direction for this project that will adhere to its intended use before I try & make it do things it wasn't designed for. I keep trying to make changes beyond my understanding. I need to narrow my scope.
