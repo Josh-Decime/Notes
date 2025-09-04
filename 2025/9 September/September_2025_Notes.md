@@ -1,3 +1,6 @@
+# 9/3/2025
+Ward now has better terminal logs for what is happening when OSV runs, if you don't have lockfiles or manifests to scan then it defaults to the API to still complete a report. 
+
 # 9/2/2025
 Ward now scans larger projects, it splits up the API calls & then stores them. You can even adjust the settings in the .env file which is a nice addition. I want any variables that you might want to change to be in the .env so there's only 1 file to interact with to finetune the agent. With that I’ll say that ward API calls are good for now. I installed OSV to test out how ward utilizes it. Unfortunately it isn't getting the information it needs to run, so there is more development that will go into getting it working. 
 
