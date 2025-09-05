@@ -1,3 +1,8 @@
+# 9/4/2025
+I’m shocked at GPT 5’s ability to refactor code. It only took 2 prompts for it to refactor my file that was 1191 lines of code, into 4 files that added up to 941 lines of code. I spent most of my time today verifying it works & trying to uncover the changes. I haven't yet noticed any issues or major changes in functionality at all. The only real change I see in functionality is that some of my extra terminal logs for testing are gone. I’ve been prompting GPT 5 to explain the difference in code, how it is smaller than the original file, but it really seems to struggle with that kind of task. It couldn't explain how the code shrank by 250+ lines, would be more after repeat imports per file because they increased the total lines in the refactor. It gave some examples of changed code but it only accounted for less than 50 lines of code shrinkage. 
+
+Even though it seems to all be working as intended I worry that some edge case handling code might have been left behind in the refactor & I just haven’t stumbled upon it yet. Working with AI is certainly a double-edged sword. This is why it is so important to have a good file structure from the beginning. I had rushed ahead with this functionality without proper planning for file structure, going forward structure needs to be a higher priority. But it's good to know it can refactor so well, if needed. 
+
 # 9/3/2025
 Ward now has better terminal logs for what is happening when OSV runs, if you don't have lockfiles or manifests to scan then it defaults to the API to still complete a report. 
 
