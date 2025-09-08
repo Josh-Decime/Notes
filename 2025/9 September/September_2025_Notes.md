@@ -1,3 +1,27 @@
+# 9/7/2025
+Almost all of my time today went to a pre-wedding party. I’m very glad I had something to do that is quick & easy, to still make progress. Yesterday I decided to go with a verbose file naming convention, so I just swapped ward to that as well. Instead of just ward/runner.py it is now ward/ward_runner.py. 
+
+# 9/6/2025
+I wish that imports could auto-update when you change file names or move them. Like if once an import was connected it recognized when the file moved or changed names & just auto swapped them, that would be nice. I ran this in the terminal to auto update the imports & it worked but added an empty line at the bottom of every file it touched.
+
+```powershell
+$map = @{
+  'from\s+geist_agent\.unveil\.runner\s+import' = 'from geist_agent.unveil.unveil_runner import'
+  'from\s+geist_agent\.unveil\.tools\s+import'  = 'from geist_agent.unveil.unveil_tools import'
+  'from\s+geist_agent\.unveil\.agent\s+import'  = 'from geist_agent.unveil.unveil_agent import'
+  'import\s+geist_agent\.unveil\.runner'        = 'import geist_agent.unveil.unveil_runner'
+  'import\s+geist_agent\.unveil\.tools'         = 'import geist_agent.unveil.unveil_tools'
+  'import\s+geist_agent\.unveil\.agent'         = 'import geist_agent.unveil.unveil_agent'
+}
+
+Get-ChildItem -Path src -Recurse -Include *.py | ForEach-Object {
+  $p = $_.FullName
+  $txt = Get-Content -LiteralPath $p -Raw -Encoding UTF8
+  foreach ($k in $map.Keys) { $txt = [regex]::Replace($txt, $k, $map[$k]) }
+  Set-Content -LiteralPath $p -Value $txt -Encoding UTF8
+}
+```
+
 # 9/5/2025
 Today I took file walking out of unveil_tools.py & moved it to utils like I have been planning for a while now. I also increased the scope of scanned files. But it was more than we need for most scans, so I set the old file scan restrictions to be default & allowed larger scans with the flag –full. I also deleted unused files & codeblocks, to clean up the project. I’ve been focused on refactoring & cleaning things up the last several days, getting that deep cleaning going.
 
