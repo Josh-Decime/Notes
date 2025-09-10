@@ -1,3 +1,9 @@
+# 9/9/2025
+Since deployment is fresh in my mind from yesterday I deployed Geist-Chatbot. So much easier this time around. Hopefully this sticks in my mind for next time, granted it will probably be a while since I don't have any website projects I’m working on currently. After I finish this AI agent there are some other agent workflows I wanted to try, like LangGraph & MCP servers. I also want to make another VR project! I really enjoyed the last one I did, even though it was a work project. I would like to make a small VR game just for fun! There is just not enough time in the world for everything I want to do! I have so much client work to do right now, I think it's going to slow down my AI Agent project for this month. I’ll keep moving along with whatever time I have available. 
+
+# 9/8/2025
+Deploying a Vue project is one of those things I just don't do frequently enough to have it totally down. It doesn't help that I use a different method almost every time too. In the past I used gh-pages, but this time I wanted to try deploying with GitHub Actions. I like Actions better, but I overcomplicated it at first & was in a weird limbo where I was still trying to deploy it as if I was using gh-pages. The Quail Kingdom Market is now deployed! It is great to see it on my phone! It will be nice that other people will be able to access it too, instead of me just having it up in localhost on my laptop on monthly signup days. It has been pretty fun being the Brass Key Collective official merchant. The Quail Kingdom has just expanded so it's no longer just once a month. 
+
 # 9/7/2025
 Almost all of my time today went to a pre-wedding party. I’m very glad I had something to do that is quick & easy, to still make progress. Yesterday I decided to go with a verbose file naming convention, so I just swapped ward to that as well. Instead of just ward/runner.py it is now ward/ward_runner.py. 
 
