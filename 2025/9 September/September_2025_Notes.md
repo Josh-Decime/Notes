@@ -1,3 +1,6 @@
+# 9/10/2025
+I am shocked & amazed at how far along seance is after just one day! My day was packed & I barely had any time to work on this, but it can already connect & answer questions!!! There are definitely many things to work out to get it all flowing smoothly but it is so much further along than I would have imagined it would be in a single day! Especially when I spent most of the day working on other projects. There is a lot more I want to say about it, but it's already getting late, I need to be off to sleep. 
+
 # 9/9/2025
 Since deployment is fresh in my mind from yesterday I deployed Geist-Chatbot. So much easier this time around. Hopefully this sticks in my mind for next time, granted it will probably be a while since I don't have any website projects I’m working on currently. After I finish this AI agent there are some other agent workflows I wanted to try, like LangGraph & MCP servers. I also want to make another VR project! I really enjoyed the last one I did, even though it was a work project. I would like to make a small VR game just for fun! There is just not enough time in the world for everything I want to do! I have so much client work to do right now, I think it's going to slow down my AI Agent project for this month. I’ll keep moving along with whatever time I have available. 
 
