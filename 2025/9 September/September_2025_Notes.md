@@ -1,3 +1,13 @@
+# 9/16/2025
+Iv got some good testing today for seance. It actually surprises me with how good some of its answers are, as long as it doesn’t have to bring in multiples. For example if you ask “what does seance do?” it gives a fantastic answer, but if you ask “what does each file of seance do?” then it will only summarize one file. –deep is definitely broken, whenever I run it the answer it provides is completely unrelated to the question. It's acting like the question isn't getting asked so it just gets random files & decides what it's going to say about them.
+
+ I got rid of all the reports on here because it was prioritizing those files before anything else so I was getting really weird answers sometimes. It might be a good idea to come up with a good solution to ignore certain files so the user can hide stuff like that from seance while still keeping it in the codebase. I think it might also be a good idea to have a variation of unveil that writes a json file that summarizes the project super in depth so it is easier for seance to answer questions if it references it. I wonder if the normal unveil report would be useful if you only put 1 that was up to date in it, rather than a bunch of reports that are all over the place across time & multiple projects. 
+
+The index was out of date, so now it writes the index every time you run seance, I planned for it to do that initially but it slipped through the cracks until now. 
+
+# 9/15/2025
+My energy levels by the time I could work on coding was completely gone! The only reason I did anything at all was to keep my code streak alive. I was dead.
+
 # 9/14/2025
 What a busy day! I’m so ready for bed. –deep flag can now be activated mid conversation. It also lists the retrieval context, with the scan type, hits, context & files.
 
