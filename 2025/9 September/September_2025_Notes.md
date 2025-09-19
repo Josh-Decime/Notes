@@ -1,3 +1,9 @@
+# 9/18/2025
+Late night getting something worth committing. I’m still dialing in –deep, but we got a lot closer today. 
+
+# 9/17/2025
+Insane day! Thankfully I had something simple that needed done. It's been hard to keep up with my goals with everything else going on.
+
 # 9/16/2025
 Iv got some good testing today for seance. It actually surprises me with how good some of its answers are, as long as it doesn’t have to bring in multiples. For example if you ask “what does seance do?” it gives a fantastic answer, but if you ask “what does each file of seance do?” then it will only summarize one file. –deep is definitely broken, whenever I run it the answer it provides is completely unrelated to the question. It's acting like the question isn't getting asked so it just gets random files & decides what it's going to say about them.
 
