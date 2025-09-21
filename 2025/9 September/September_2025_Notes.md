@@ -1,3 +1,9 @@
+# 9/20/2025 
+I tried to make –deep feed top results before branching out but it is still having the same issue. Time has been extremely short lately with my other work & obligations. But tomorrow I am planning to revert to the seance_runner I had on 9/18 because that was much closer. Then I’ll allow it to take –verbose tags mid conversation, like how –deep works, so I have better troubleshooting feedback about how answers are being generated. 
+
+# 9/19/2025
+When I try to expand the information provided in –deep it’s answers become unrelated to the question asked.
+
 # 9/18/2025
 Late night getting something worth committing. I’m still dialing in –deep, but we got a lot closer today. 
 
