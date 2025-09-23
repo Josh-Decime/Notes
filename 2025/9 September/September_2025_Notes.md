@@ -1,3 +1,9 @@
+# 9/22/2025
+Today was one of the most crazy days! Wow! Three huge situations simultaneously went my way today! But it took up the entire day, the day started at 6am & I didn't even get home till after 9:30pm. It was a pretty intense day, super stressful for most of it. I couldn't even eat until 8pm because there was no time. All I wanted to do was go to sleep when I got home but I still had a lot of obligations. To keep the code streak alive I got rid of a small pet peeve in seance top of file comments. I also did some more testing of seance responses. While that does not generate code it is still very important to the overall development of poltergeist. 
+
+# 9/21/2025
+I did what I said I was going to do today & reverted to the better –deep flag & added –verbose support to mid conversation. 
+
 # 9/20/2025 
 I tried to make –deep feed top results before branching out but it is still having the same issue. Time has been extremely short lately with my other work & obligations. But tomorrow I am planning to revert to the seance_runner I had on 9/18 because that was much closer. Then I’ll allow it to take –verbose tags mid conversation, like how –deep works, so I have better troubleshooting feedback about how answers are being generated. 
 
