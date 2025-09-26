@@ -1,3 +1,12 @@
+# 9/25/2025
+I decided that I need to add a new –wide flag to search more files. –deep was trying to search too much & it couldn't handle that. So now –deep looks up more within each file, while –wide only takes the top most part of any file & searches much more files. I also added –env so that I can update the .env file mid chat & see the changes without restarting the conversation. Since giving too much context to the LLM breaks it, this is vital in figuring out where the optimal settings are. It's crazy how much clearer I was thinking today because I was able to take a nap. I've really been running myself to exhaustion lately. I still don’t even have enough time to do everything I have to do either. 
+
+# 9/24/2025
+Keeping things going, I just reverted back to the best version & did some more testing.
+
+# 9/23/2024
+Testing out making –deep scan a wider range of files. Initial tests were alright but by the end of the night answers were coming back as “not found” so it all broke. I did more aggressive editing than I have been thus far so I'm not terribly surprised that happened. I want to be able to give it more context without losing the question & the LLM just providing unrelated gibberish as an answer. 
+
 # 9/22/2025
 Today was one of the most crazy days! Wow! Three huge situations simultaneously went my way today! But it took up the entire day, the day started at 6am & I didn't even get home till after 9:30pm. It was a pretty intense day, super stressful for most of it. I couldn't even eat until 8pm because there was no time. All I wanted to do was go to sleep when I got home but I still had a lot of obligations. To keep the code streak alive I got rid of a small pet peeve in seance top of file comments. I also did some more testing of seance responses. While that does not generate code it is still very important to the overall development of poltergeist. 
 
