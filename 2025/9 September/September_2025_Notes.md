@@ -1,3 +1,16 @@
+# 9/28/2025
+Seance’s –deep & now –wide responses just keep getting worse when I try to develop them further. I’ve had to revert several times & am considering doing it again because it just keeps breaking. I am beyond my current depth of understanding so AI is really leading this one right now & I can't guide it or critique it like I usually do. This is my first project in python & I don’t find it as natural to read as other languages. This project is also very far from the websites, webgames & VR projects of my past in terms of what it does & how it functions. 
+
+It would be so nice to have an actual expert to talk to, ask questions & learn from. AI can kind of explain things but when things get complicated it gives incorrect answers a concerning amount of the time. I’m used to self directed learning at this point, I learned how to digital sculpt, 3D print & metal cast largely on my own. But I could learn so much faster with assistance. I crave being in an environment with other professionals that are more knowledgeable than me, who I can learn from by solving hard problems together. For now I just have to keep marching on. I feel like a moth flying against glass, looking for an open window. 
+
+# 9/27/2025
+The wedding went well. It was a welcomed change of pace from my usual daily routine. I’m also really happy for one of my best friends! It was a lovely ceremony! 
+
+I got my coding in before I went so I didn't have to worry about it. I just made a simple change, to be able to exclude non-code documents from what is fed to the AI when asking a question, something I probably should have implemented a long time ago. 
+
+# 9/26/2025
+On top of everything else I had a rehearsal dinner to go to. Even though I am a groomsman I had to turn down going to the bachelor party to have time to code. The bachelor party wasn't anything crazy, they were just watching a movie together. AI can reduce the burden of coding significantly to the point where it isn't a huge deal to commit code every day, but it does still take a commitment.
+
 # 9/25/2025
 I decided that I need to add a new –wide flag to search more files. –deep was trying to search too much & it couldn't handle that. So now –deep looks up more within each file, while –wide only takes the top most part of any file & searches much more files. I also added –env so that I can update the .env file mid chat & see the changes without restarting the conversation. Since giving too much context to the LLM breaks it, this is vital in figuring out where the optimal settings are. It's crazy how much clearer I was thinking today because I was able to take a nap. I've really been running myself to exhaustion lately. I still don’t even have enough time to do everything I have to do either. 
 
