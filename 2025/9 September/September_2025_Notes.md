@@ -1,3 +1,16 @@
+# End of Month Recap
+In September 2025 I primarily continued to work on Geist-Agent. I wrapped up Ward functionality, reorganized the project files, started & nearly finished Seance. I also deployed the Quail-Kingdom-Market & Geist-Chatbot. That was all done in spite of how busy my personal & work life was through the month. Unfortunately I think next month is going to be even busier. But I’m still determined to keep coding every day with whatever time I can spare. 
+
+(Expand upon monthly recap when I have more time)
+
+---
+
+# 9/30/2025
+Seance is an important functionality for this project & is something I want to function well. For the most part it does. By default it can answer a wide array of questions. But there are certain types of questions it struggles with, which is why I made –deep & –wide. But at this point I have spent so much time on it that I need to move on soon. 
+
+# 9/29/2025
+I didn’t have a lot of time so I added the query logging back in because that was useful & had been lost when I was trying to get –deep & –wide to work better.
+
 # 9/28/2025
 Seance’s –deep & now –wide responses just keep getting worse when I try to develop them further. I’ve had to revert several times & am considering doing it again because it just keeps breaking. I am beyond my current depth of understanding so AI is really leading this one right now & I can't guide it or critique it like I usually do. This is my first project in python & I don’t find it as natural to read as other languages. This project is also very far from the websites, webgames & VR projects of my past in terms of what it does & how it functions. 
 
