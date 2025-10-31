@@ -1,3 +1,6 @@
+# 10/31/2025 
+HAPPY HALLOWEEN! 👻
+
 # 10/6/2025
 With how little time I have to devote to this, it is becoming increasingly difficult to add any real meaningful progress to the project. I want to keep working on it every day, but I have been considering putting it on hold until I have more time again. Because I don’t have enough time & am just trying to make some progress to keep committing code every day I am allowing the progress to be sloppy. Prioritizing speed, to get code committed each day, over everything is also causing me to learn less. If I could slow down to review everything & seek to understand it all better I would learn far more. A good middleground might be to still keep looking at the project & thinking about it every day but instead of committing code I could prioritize my notes, so I can think things through & still progress even when code isn't written. 
 
