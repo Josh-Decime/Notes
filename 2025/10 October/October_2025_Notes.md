@@ -1,3 +1,12 @@
+# End of Month Recap
+This month was a real challenge to my commitment. I got the most sick I have been in over 6 years, & it lasted essentially the entire month. I’ll spare the details but I had to go to the doctor a couple times & ended up needing antibiotics, which didn't agree well with me. On top of that I had a lot of work as well. This month was a miserable slog & I barely got to have any festive fun. 
+
+There was a lot of going back & forth attempting to get better results with seance –deep & –wide. But I did have some success with several aspects of the project. I was able to add the verbose logs into the transcript for easier debugging & understanding of how seance reaches its answers. I also added a token debugger so it's possible to see what tokens are found for a keyword. Doctor now creates a .env file in the .geist folder so new users can run it to get the .env controls that are built in for commands. There was also some minor file restructuring. The readme was also updated.
+
+Now that I am recovering finally I am hoping next month will be much more productive. 
+
+---
+
 # 10/31/2025 
 HAPPY HALLOWEEN! 👻
 
