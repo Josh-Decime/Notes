@@ -1,3 +1,8 @@
+# 11/6/2025
+Since –deep keeps saying it is not receiving relevant context I tried to boost symbol tokens so a name like generate_filename would be at the top of the lists of tokens. It didn't seem to cause any issues but it didn't solve the issue either. I’ve built up so much technical debt, especially while I was sick. My strongest understanding of how things need to function is in videogames or webpages, this project is harder for me to wrap my head around what is happening. If I just had a full day to work on this I could really dig through all this & get a better understanding of where the issues are, but this project has unfortunately fallen down my priority list. 
+
+I had slightly more time than usual today & was able to do more testing. I read through the –verbose –deep log to see what tokens it provided & it isn't even providing the right files to be able to answer the question, it's in the completely wrong spot. I have a debugger to check tokens exist for keywords, but I need more in depth information about how tokens are chosen before being fed to the LLM. It's going to take a huge effort for me to even begin to understand that process from the code itself. Python is one of the languages I’m still rather weak with & this is my first time trying to build anything like this. There is a treasure trove of learning ahead of me, I just need to find the time for a deep dive. Even though AI is pretty flawed in its current state, it should be able to answer my questions well enough for me to get a decent grasp.
+
 # 11/5/2025
 Some progress was made, it is now generating answers again but still having the same issues as before, but now with a bit more terminal feedback & some duplicate functionality was removed. 
 
