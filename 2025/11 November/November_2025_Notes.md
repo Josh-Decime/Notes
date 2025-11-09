@@ -1,3 +1,9 @@
+# 11/8/2025
+I made some minor improvements with –wide but were still not there.
+
+# 11/7/2025
+Didn't have a lot of time & just had to do what I could
+
 # 11/6/2025
 Since –deep keeps saying it is not receiving relevant context I tried to boost symbol tokens so a name like generate_filename would be at the top of the lists of tokens. It didn't seem to cause any issues but it didn't solve the issue either. I’ve built up so much technical debt, especially while I was sick. My strongest understanding of how things need to function is in videogames or webpages, this project is harder for me to wrap my head around what is happening. If I just had a full day to work on this I could really dig through all this & get a better understanding of where the issues are, but this project has unfortunately fallen down my priority list. 
 
