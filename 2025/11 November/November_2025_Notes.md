@@ -1,3 +1,8 @@
+# 11/9/2025
+Now that I’m finally starting to recover from that horrendous sickness I’m beginning to look more closely at how seance is functioning. While sick & on a time crunch I let AI lead the way on this. I wasn't looking as closely into what it was giving me & was just testing things as we went. I knew that would cause a lot of issues, but it's a personal project so I can get it a little messy if I want. Thankfully, the process of cleaning it up is going to be really great practice & will teach me a lot. 
+
+Today I decided to take a closer look at the block of code I’ve been working with the last several days & realized that it is incapable of solving my issues. It processes the chunks provided by BM25 after it has already chosen them, while AI led me to believe it could fix the issue by changing the token ranking. It did seem to give better results for –wide last time but I think that might have just been because of the non-deterministic aspect of AI. If it did actually help, it's just a bandaid fix rather than solving the core of our issue. Seance_runner is already such a large file, it doesn't need any extra bloat.
+
 # 11/8/2025
 I made some minor improvements with –wide but were still not there.
 
