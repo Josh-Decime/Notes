@@ -1,3 +1,6 @@
+# 11/10/2025
+A little understanding goes a long way! You really can't leave it up to AI to troubleshoot in its current state, but if you know what you're doing it can be so helpful! It now boosts the token value of words with symbols before running BM25 & the answers it was providing to my test questions were so much better! –deep & –wide are now essentially fixed & could just use some minor finetuning. 
+
 # 11/9/2025
 Now that I’m finally starting to recover from that horrendous sickness I’m beginning to look more closely at how seance is functioning. While sick & on a time crunch I let AI lead the way on this. I wasn't looking as closely into what it was giving me & was just testing things as we went. I knew that would cause a lot of issues, but it's a personal project so I can get it a little messy if I want. Thankfully, the process of cleaning it up is going to be really great practice & will teach me a lot. 
 
