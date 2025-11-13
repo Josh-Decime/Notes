@@ -1,3 +1,9 @@
+# 11/12/2025
+After reviewing the verbose logs from running seance –wide I can see that it is getting everything it needs to answer the question correctly. I thought that it was, because it was referencing those files, but I have now confirmed it received everything it needed to answer. So the issue isn’t with BM25 this time, it is my LLM for certain. So anyone using a stronger LLM should get the correct answer since the answer was extracted from the code by BM25. I tried to see if maybe it just answered too soon without going through all the files provided, so I gave explicit instructions to read all of the files provided & that didn't change the result. 
+
+# 11/11/2025
+It seemed like my small LLM is getting overwhelmed by the context provided by –wide. So it can't provide the full, correct, answer. I reduced the context to see if that would fix it but unfortunately it is not reaching the correct answer still. 
+
 # 11/10/2025
 A little understanding goes a long way! You really can't leave it up to AI to troubleshoot in its current state, but if you know what you're doing it can be so helpful! It now boosts the token value of words with symbols before running BM25 & the answers it was providing to my test questions were so much better! –deep & –wide are now essentially fixed & could just use some minor finetuning. 
 
