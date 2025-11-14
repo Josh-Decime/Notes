@@ -1,3 +1,6 @@
+# 11/13/2025
+Today I just made some minor adjustments to the readme. I’m considering starting another project now that seance is working well. Digging into it is going to be really time consuming & I already got it working well. I would learn a lot going through it but with how little time I have each day I likely wouldn't find any changes within the time I have. I could just do notes explaining what I learn each day & that would be something. But also, I am just ready to move on to something else. This project was fun & a great learning experience but there are many other things I want to build!
+
 # 11/12/2025
 After reviewing the verbose logs from running seance –wide I can see that it is getting everything it needs to answer the question correctly. I thought that it was, because it was referencing those files, but I have now confirmed it received everything it needed to answer. So the issue isn’t with BM25 this time, it is my LLM for certain. So anyone using a stronger LLM should get the correct answer since the answer was extracted from the code by BM25. I tried to see if maybe it just answered too soon without going through all the files provided, so I gave explicit instructions to read all of the files provided & that didn't change the result. 
 
