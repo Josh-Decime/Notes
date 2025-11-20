@@ -1,3 +1,6 @@
+# 11/19/2025
+I decided I’m going to start another VR project. I installed Unity, it was having some installation issues & I had to retry several times but it's finally installed. I don't have time to start the project today.
+
 # 11/13/2025
 Today I just made some minor adjustments to the readme. I’m considering starting another project now that seance is working well. Digging into it is going to be really time consuming & I already got it working well. I would learn a lot going through it but with how little time I have each day I likely wouldn't find any changes within the time I have. I could just do notes explaining what I learn each day & that would be something. But also, I am just ready to move on to something else. This project was fun & a great learning experience but there are many other things I want to build!
 
