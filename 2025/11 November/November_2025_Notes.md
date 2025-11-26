@@ -1,3 +1,6 @@
+# 11/20/2025
+Unity crashed when I was scaling up the city buildings & I don’t have time to redo that work. Things are getting crazy as Thanksgiving approaches. I'm also going to be going out of town & wont have my computer so the every day streak is about to end & I’m going to reevaluate my goals. I like holding to a daily streak because it gets me thinking about this every day. But so many of the days are small contributions, which might give the wrong idea about my work ethic & it definitely changes what I plan to work on. As with everything it has its pros & cons so I’ll spend some time thinking about what I plan to do going forward. 
+
 # 11/19/2025
 I decided I’m going to start another VR project. I installed Unity, it was having some installation issues & I had to retry several times but it's finally installed. I don't have time to start the project today.
 
